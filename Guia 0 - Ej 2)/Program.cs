@@ -29,10 +29,10 @@ namespace Guia_0___Ej_2_
             Console.WriteLine();
             Console.WriteLine();
 
-            Console.WriteLine("Ingrese el primer número decimal:");
+            Console.Write("Ingrese el primer número decimal:");
             string cadena3 = Console.ReadLine();
             decimal.TryParse(cadena3, out decimal dec1);
-            Console.WriteLine("Ingrese el segundo número decimal:");
+            Console.Write("Ingrese el segundo número decimal:");
             string cadena4 = Console.ReadLine();
             decimal.TryParse(cadena4, out decimal dec2);
             Console.WriteLine();
